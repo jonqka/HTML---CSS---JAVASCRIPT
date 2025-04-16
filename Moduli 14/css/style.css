@@ -1,0 +1,72 @@
+article p{
+    background: cornflowerblue;
+    color: white;
+    padding: 20px;
+}
+
+article > p{
+    background:maroon;
+}
+
+article + p{
+    background:burlywood;
+    color: white;
+    padding: 20px;
+}
+
+article ~ p {
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+h3:first-of-type{
+    color: darkblue;
+}
+
+input:in-range{
+    border: 10px solid rgb(98, 161, 61);
+
+}
+
+input:out-of-range{
+    border: 10px solid maroon;  
+}
+
+input:required{
+    background-color:rgb(243, 243, 228);
+}
+
+input:invalid{
+    border: 2px solid maroon;
+}
+
+input:valid{
+    border: 2px solid olivedrab;
+}
+
+h1::before{
+    content: url(../image/arrow.png);
+}
+
+h1::after{
+    content: url(../image/arrow.png);
+}
+
+p::first-line{
+    font-size: 40px;
+    color: darkslategrey;
+}
+
+p::first-letter{
+    font-size: 40px;
+    color:rgb(202, 185, 28);
+}
+
+div{
+    opacity: 50%;
+}
