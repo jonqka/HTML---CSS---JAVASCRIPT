@@ -1,0 +1,117 @@
+/* #translate{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px;
+    transform: translate(100px,50px);
+}
+
+#rotate{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: olive;
+    padding: 10px;
+    transform: rotate(45deg);
+}
+
+#scale{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: indianred;
+    padding: 10px;
+    transform: scale(2,2);
+}
+
+#scalex{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(226, 212, 19);
+    padding: 10px;
+    transform: scaleX(3);
+}
+#scaley{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(113, 31, 219);
+    padding: 10px;
+    transform: scaleY(3);
+} 
+
+#skewx{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(226, 212, 19);
+    padding: 10px;
+    transform: skewX(-40deg);
+}
+#skewy{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(113, 31, 219);
+    padding: 10px;
+    transform: skewY(40deg);
+} */
+/* #rotatex{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(226, 212, 19);
+    padding: 10px;
+    transform: rotateX(130deg);
+}
+#rotatey{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(113, 31, 219);
+    padding: 10px;
+    transform: rotateY(130deg);
+}
+#rotatez{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(103, 133, 89);
+    padding: 10px;
+    transform: rotateZ(130deg);
+} */
+
+/* div{
+    width:200px;
+    height: 200px;
+    background-color: indianred; 
+    transition: background 3s,border-radius 3s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+}
+
+div:hover{
+    background-color: cornflowerblue;
+    border-radius: 50%;
+} */
+
+#s img{
+    transform: scale(1);
+    transition: 3s ease-in-out;
+}
+
+#s:hover img{
+    transform: scale(1.3);
+}
