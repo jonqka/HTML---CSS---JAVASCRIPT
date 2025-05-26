@@ -1,0 +1,26 @@
+
+body {
+        font-family: "Ancizar Sans", sans-serif;
+        background: linear-gradient(135deg, #dfcb16 0%, #ece8c4 25%, #acc0eb 50%, #dbdfb0 75%, #dfcb16 100%);
+        color: #ffffff;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    header {
+        background: rgba(26, 26, 46, 0.15);
+        backdrop-filter: blur(20px);
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
